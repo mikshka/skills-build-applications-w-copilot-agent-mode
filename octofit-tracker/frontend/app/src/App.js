@@ -44,9 +44,9 @@ function App() {
         <Route path="/" element={
           <div className="card text-center">
             <div className="card-body">
-              <h2 className="card-title">Добро пожаловать в Octofit Tracker!</h2>
-              <p className="card-text">Выберите раздел для просмотра данных.</p>
-              <NavLink className="btn btn-success" to="/activities">Начать с Activities</NavLink>
+              <h2 className="card-title">Welcome to Octofit Tracker!</h2>
+              <p className="card-text">Select a section to view data.</p>
+              <NavLink className="btn btn-success" to="/activities">Start with Activities</NavLink>
             </div>
           </div>
         } />

@@ -21,7 +21,7 @@ const Leaderboard = () => {
         <h2 className="card-title">Leaderboard</h2>
       </div>
       <div className="card-body">
-        <button className="btn btn-primary mb-3" onClick={() => window.location.reload()}>Обновить</button>
+        <button className="btn btn-primary mb-3" onClick={() => window.location.reload()}>Refresh</button>
         <table className="table table-striped">
           <thead>
             <tr>
